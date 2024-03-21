@@ -21,7 +21,23 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
 - **2018.09 - 2022.06:** The Hong Kong Polytechnic University, B.Sc. in Computing. 
     - Awarded the highest award for undergraduates: Outstanding Student of the Faculty of Engineering 2021/22. (Only one from more than 1000 students.) 
     [[News]](https://www.polyu.edu.hk/comp/news-and-events/news/2022/0324_osa_2021/)[[Sharing]](https://www.polyu.edu.hk/comp/-/media/department/comp/publication/private/comp-enews_2022-spring_for-final.pdf)[[YouTube]](https://www.youtube.com/watch?v=XTvlR4fFd0I)[[Facebook]](https://www.facebook.com/HongKongPolyU/photos/a.405574404548/10159955761959549)[[WeChat]](https://mp.weixin.qq.com/s/ev1wPnPmXhNR3dpaNlEWPA)
-
+<details style="margin-top: -20px; padding-left: 64px;">
+  <summary style="cursor: pointer; color: #595959; font-weight: normal;">Scholarships:</summary>
+  <ul style="list-style-type: none; padding: 0; font-size: 14px;">
+    <li>• HKSAR Government Scholarship 2020/21 and 2021/22 (HKD 160,000, around USD 20,500)</li>
+    <li>• Commercial Radio 50th Anniversary Scholarship 2019/20 (HKD 80,000, around USD 10,250)</li>
+    <li>• The Hong Kong Polytechnic University Scholarship 2019/20 (HKD 40,000, around USD 5,125)</li>
+    <li>• Wong Tit-shing Student Exchange Scholarship 2020/21 (HKD 20,000, around USD 2,560)</li>
+    <li>• WKF Foundation Service-Learning Scholarship 2020/21 (HKD 16,600, around USD 2,125)</li>
+    <li>• Wei Lun Foundation Scholarship 2020/21 (HKD 16,600, around USD 2,125)</li>
+    <li>• Tellhow Group Scholarship 2018/19 (CNY 10,000, around USD 1,399)</li>
+    <li>• Rennie's Mill Student Aid Project Alumni Association Scholarship 2019/20 (HKD 10,000, around USD 1,250)</li>
+    <li>• V.K. Hsu & Sons Foundations Ltd. Scholarship 2019/20 (HKD 10,000, around USD 1,250)</li>
+    <li>• HKMA IT Management Club Scholarship 2021/22 (HKD 5,000, around USD 640)</li>
+    <li>• Proof-of-Concept (POC) Funding Scheme 2021/22 (HKD 5,000, around USD 640)</li>
+  </ul>
+</details>
+<br>
 
 
 <!-- {% include_relative _includes/publications.md %} -->
