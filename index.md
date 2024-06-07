@@ -4,7 +4,7 @@ layout: homepage
 
 ## &#x1F64B; About Me
 
-I am a first year Ph.D. student at the University of Cambridge, working under the supervision of [Prof. Nigel Collier](https://sites.google.com/site/nhcollier/home). Previously, I completed my MPhil degree at Cambridge, focusing on fact-checking under the guidance of [Prof. Andreas Vlachos](https://andreasvlachos.github.io/). During my undergraduate studies, I completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) on conversational QA systems and interned at UCLA under the supervision of [Dr. Nanyun Peng](https://vnpeng.net/). 
+I am a first year Ph.D. student at the University of Cambridge, working under the supervision of [Prof. Nigel Collier](https://sites.google.com/site/nhcollier/home). Previously, I completed my MPhil degree at Cambridge, focusing on fact-checking under the guidance of [Prof. Andreas Vlachos](https://andreasvlachos.github.io/) and [Dr. Zhijiang Guo](https://cartus.github.io/). During my undergraduate studies, I completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) on conversational QA systems and interned at UCLA under the supervision of [Dr. Nanyun Peng](https://vnpeng.net/). 
 
 
 ## &#x1F9D0; Research Interests 
@@ -43,21 +43,24 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
 <!-- {% include_relative _includes/publications.md %} -->
 
 ## &#x1F4DD; Publications 
+- **TopViewRS: Vision-Language Models as Top-View Spatial Reasoners**   
+  _Preprint_ [[paper]](https://arxiv.org/abs/2406.02537)  
+  Chengzu Li*, **Caiqi Zhang***, Han Zhou, Nigel Collier, Anna Korhonen, Ivan Vulić.
 
-- **Uncertainty Quantification in Large Language Models for Long Text Generation.**  
-  _Preprint_  
+- **LUQ: Long-text Uncertainty Quantification for LLMs**   
+  _Preprint_ [[paper]](https://arxiv.org/abs/2403.20279)  
   **Caiqi Zhang**, Fangyu Liu, Marco Basaldella, Nigel Collier.
 
-- **Do We Need Language-Specific Fact-Checking Models? The Case of Chinese.**  
-  _Preprint_  
+- **Do We Need Language-Specific Fact-Checking Models? The Case of Chinese**  
+  _Preprint_ [[paper]](https://arxiv.org/abs/2401.15498)  
   **Caiqi Zhang**, Zhijiang Guo, Andreas Vlachos.
 
 - **Language is All a Graph Needs.**  
-  _Findings at EACL 2024_  
+  _Findings at EACL 2024_ [[paper]](https://aclanthology.org/2024.findings-eacl.132/)   
   Ruosong Ye, **Caiqi Zhang**, Runhui Wang, Shuyuan Xu, Yongfeng Zhang.
 
-- **Learning to Infer Action-Condition Dependencies from Instructional Manuals for Structural Instruction Understanding.**  
-  _Main conference at ACL 2023_  
+- **Learning to Infer Action-Condition Dependencies from Instructional Manuals for Structural Instruction Understanding**  
+  _Main conference at ACL 2023_ [[paper]](https://aclanthology.org/2023.acl-long.170/)   
   Te-Lin Wu, **Caiqi Zhang**, Carol Hu, Alex Spangher, Nanyun (Violet) Peng.
 
 
@@ -71,6 +74,8 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
   </ul>
 </details>
 <br>
+
+*denotes equal contribution
 
 <details>
 
