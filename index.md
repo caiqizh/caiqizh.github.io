@@ -45,7 +45,7 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
 ## &#x1F4DD; Publications 
 - **TopViewRS: Vision-Language Models as Top-View Spatial Reasoners**   
   _Preprint_ [[paper]](https://arxiv.org/abs/2406.02537)  
-  Chengzu Li*, **Caiqi Zhang***, Han Zhou, Nigel Collier, Anna Korhonen, Ivan Vulić.
+  Chengzu Li†, **Caiqi Zhang†**, Han Zhou, Nigel Collier, Anna Korhonen, Ivan Vulić.
 
 - **LUQ: Long-text Uncertainty Quantification for LLMs**   
   _Preprint_ [[paper]](https://arxiv.org/abs/2403.20279)  
@@ -75,7 +75,7 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
 </details>
 <br>
 
-*denotes equal contribution
+†denotes equal contribution.
 
 <details>
 
