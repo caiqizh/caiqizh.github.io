@@ -89,7 +89,3 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
 <p>As a member of both the PolyU and Cambridge Mandarin Debate Teams, I participated in competitions across various cities, including Singapore, Shanghai, Suzhou, Nanjing, Wuhan, Changsha, Xi'an, and Chengdu. These experiences refined my communication and critical thinking skills and provided international representation opportunities.</p>
 
 </details>
-
-<br>
-<br>
-<a href="https://info.flagcounter.com/2wSP"><img src="https://s11.flagcounter.com/mini/2wSP/bg_FFFFFF/txt_043361/border_FFFFFF/flags_0/" alt="Flag Counter" border="0"></a>
