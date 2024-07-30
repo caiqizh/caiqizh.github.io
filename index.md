@@ -43,6 +43,8 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
 <!-- {% include_relative _includes/publications.md %} -->
 
 ## &#x1F4DD; Publications 
+†denotes equal contribution.
+
 - **TopViewRS: Vision-Language Models as Top-View Spatial Reasoners**   
   _Preprint_ [[paper]](https://arxiv.org/abs/2406.02537)  
   Chengzu Li†, **Caiqi Zhang†**, Han Zhou, Nigel Collier, Anna Korhonen, Ivan Vulić.
@@ -56,11 +58,11 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
   **Caiqi Zhang**, Zhijiang Guo, Andreas Vlachos.
 
 - **Language is All a Graph Needs.**  
-  _Findings at EACL 2024_ [[paper]](https://aclanthology.org/2024.findings-eacl.132/)   
+  _EACL 2024 Findings_ [[paper]](https://aclanthology.org/2024.findings-eacl.132/)   
   Ruosong Ye, **Caiqi Zhang**, Runhui Wang, Shuyuan Xu, Yongfeng Zhang.
 
 - **Learning to Infer Action-Condition Dependencies from Instructional Manuals for Structural Instruction Understanding**  
-  _Main conference at ACL 2023_ [[paper]](https://aclanthology.org/2023.acl-long.170/)   
+  _ACL 2023 Main_ [[paper]](https://aclanthology.org/2023.acl-long.170/)   
   Te-Lin Wu, **Caiqi Zhang**, Carol Hu, Alex Spangher, Nanyun (Violet) Peng.
 
 
@@ -74,8 +76,6 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
   </ul>
 </details>
 <br>
-
-†denotes equal contribution.
 
 <details>
 
