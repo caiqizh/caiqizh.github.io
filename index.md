@@ -37,7 +37,7 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
     <li>• Proof-of-Concept (POC) Funding Scheme 2021/22 (HKD 5,000, around USD 640)</li>
   </ul>
 </details>
-<br>
+<p></p>
 
 ## &#x1F468;&#x200D;&#x1F4BB; Internships
 
@@ -50,25 +50,26 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
 ## &#x1F4DD; Publications 
 † denotes equal contribution.
 
-- **TopViewRS: Vision-Language Models as Top-View Spatial Reasoners**   
-  _EMNLP 2024 Main_ [[paper]](https://arxiv.org/abs/2406.02537)  
-  Chengzu Li†, **Caiqi Zhang†**, Han Zhou, Nigel Collier, Anna Korhonen, Ivan Vulić.
 
-- **LUQ: Long-text Uncertainty Quantification for LLMs**   
-  _EMNLP 2024 Main_ [[paper]](https://arxiv.org/abs/2403.20279)  
-  **Caiqi Zhang**, Fangyu Liu, Marco Basaldella, Nigel Collier.
+- <strong><span style="color: #03396c;">TopViewRS: Vision-Language Models as Top-View Spatial Reasoners</span></strong> [[paper]](https://arxiv.org/abs/2406.02537)  
+  **EMNLP 2024 Main**  
+  Chengzu Li†, <u>Caiqi Zhang†</u>, Han Zhou, Nigel Collier, Anna Korhonen, Ivan Vulić.
 
-- **Do We Need Language-Specific Fact-Checking Models? The Case of Chinese**  
-  _EMNLP 2024 Main_ [[paper]](https://arxiv.org/abs/2401.15498)  
-  **Caiqi Zhang**, Zhijiang Guo, Andreas Vlachos.
+- <strong><span style="color: #03396c;">LUQ: Long-text Uncertainty Quantification for LLMs</span></strong> [[paper]](https://arxiv.org/abs/2403.20279)  
+  **EMNLP 2024 Main**  
+  <u>Caiqi Zhang</u>, Fangyu Liu, Marco Basaldella, Nigel Collier.
 
-- **Language is All a Graph Needs.**  
-  _EACL 2024 Findings_ [[paper]](https://aclanthology.org/2024.findings-eacl.132/)   
-  Ruosong Ye, **Caiqi Zhang**, Runhui Wang, Shuyuan Xu, Yongfeng Zhang.
+- <strong><span style="color: #03396c;">Do We Need Language-Specific Fact-Checking Models? The Case of Chinese</span></strong>   [[paper]](https://arxiv.org/abs/2401.15498)  
+  **EMNLP 2024 Main**   
+  <u>Caiqi Zhang</u>, Zhijiang Guo, Andreas Vlachos.
 
-- **Learning to Infer Action-Condition Dependencies from Instructional Manuals for Structural Instruction Understanding**  
-  _ACL 2023 Main_ [[paper]](https://aclanthology.org/2023.acl-long.170/)   
-  Te-Lin Wu, **Caiqi Zhang**, Carol Hu, Alex Spangher, Nanyun (Violet) Peng.
+- <strong><span style="color: #03396c;">Language is All a Graph Needs</span></strong>   [[paper]](https://aclanthology.org/2024.findings-eacl.132/)  
+  **EACL 2024 Findings**   
+  Ruosong Ye, <u>Caiqi Zhang</u>, Runhui Wang, Shuyuan Xu, Yongfeng Zhang.
+
+- <strong><span style="color: #03396c;">Learning to Infer Action-Condition Dependencies from Instructional Manuals for Structural Instruction Understanding</span></strong>   [[paper]](https://aclanthology.org/2023.acl-long.170/)   
+  **ACL 2023 Main**  
+  Te-Lin Wu, <u>Caiqi Zhang</u>, Carol Hu, Alex Spangher, Nanyun (Violet) Peng.
 
 
 <details style="padding-left: 25px;">
