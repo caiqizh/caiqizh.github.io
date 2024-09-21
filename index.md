@@ -39,22 +39,27 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
 </details>
 <br>
 
+## &#x1F468;&#x200D;&#x1F4BB; Internships
+
+- [PlusLab](https://violetpeng.github.io/), University of California, Los Angeles. (2021 Summer)
+  <!-- - Supervised by Dr. Te-Lin Wu -->
+- Tencent AI Lab. (2024 Summer)
 
 <!-- {% include_relative _includes/publications.md %} -->
 
 ## &#x1F4DD; Publications 
-†denotes equal contribution.
+† denotes equal contribution.
 
 - **TopViewRS: Vision-Language Models as Top-View Spatial Reasoners**   
-  _Preprint_ [[paper]](https://arxiv.org/abs/2406.02537)  
+  _EMNLP 2024 Main_ [[paper]](https://arxiv.org/abs/2406.02537)  
   Chengzu Li†, **Caiqi Zhang†**, Han Zhou, Nigel Collier, Anna Korhonen, Ivan Vulić.
 
 - **LUQ: Long-text Uncertainty Quantification for LLMs**   
-  _Preprint_ [[paper]](https://arxiv.org/abs/2403.20279)  
+  _EMNLP 2024 Main_ [[paper]](https://arxiv.org/abs/2403.20279)  
   **Caiqi Zhang**, Fangyu Liu, Marco Basaldella, Nigel Collier.
 
 - **Do We Need Language-Specific Fact-Checking Models? The Case of Chinese**  
-  _Preprint_ [[paper]](https://arxiv.org/abs/2401.15498)  
+  _EMNLP 2024 Main_ [[paper]](https://arxiv.org/abs/2401.15498)  
   **Caiqi Zhang**, Zhijiang Guo, Andreas Vlachos.
 
 - **Language is All a Graph Needs.**  
