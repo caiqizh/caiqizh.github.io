@@ -4,7 +4,7 @@ layout: homepage
 
 ## &#x1F64B; About Me
 
-I am a first year Ph.D. student at the University of Cambridge, working under the supervision of [Prof. Nigel Collier](https://sites.google.com/site/nhcollier/home). Previously, I completed my MPhil degree at Cambridge, focusing on fact-checking under the guidance of [Prof. Andreas Vlachos](https://andreasvlachos.github.io/) and [Dr. Zhijiang Guo](https://cartus.github.io/). During my undergraduate studies, I completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) on conversational QA systems and interned at UCLA under the supervision of [Dr. Nanyun Peng](https://vnpeng.net/). 
+I am a second year Ph.D. student at the University of Cambridge, working under the supervision of [Prof. Nigel Collier](https://sites.google.com/site/nhcollier/home). Previously, I completed my MPhil degree at Cambridge, focusing on fact-checking under the guidance of [Prof. Andreas Vlachos](https://andreasvlachos.github.io/) and [Dr. Zhijiang Guo](https://cartus.github.io/). During my undergraduate studies, I completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) on conversational QA systems and interned at UCLA under the supervision of [Dr. Nanyun Peng](https://vnpeng.net/). 
 
 
 ## &#x1F9D0; Research Interests 
@@ -41,19 +41,25 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
 
 ## &#x1F468;&#x200D;&#x1F4BB; Internships
 
-- [PlusLab](https://violetpeng.github.io/), University of California, Los Angeles. (2021 Summer)
+- [PolyU NLP Group](https://polyunlp.github.io/home); Research Assistant; Mar 2021 - June 2022 
+  <!-- - Supervised by Prof. Maggie Wenjie Li and Dr. Yongqi Li. -->
+- [PlusLab](https://violetpeng.github.io/); University of California, Los Angeles; Research Intern; 2021 Summer
   <!-- - Supervised by Dr. Te-Lin Wu -->
-- Tencent AI Lab. (2024 Summer)
+- [Tencent AI Lab](https://ailab.tencent.com/ailab/en/index/); Research Intern; 2024 Summer
 
 <!-- {% include_relative _includes/publications.md %} -->
 
 ## &#x1F4DD; Publications 
 † denotes equal contribution.
 
+### Featured Publications
+- <strong><span style="color: #03396c;">Conformity in Large Language Models</span></strong> [[paper]](https://arxiv.org/abs/2410.12428)  
+  **preprint**   
+  Xiaochen Zhu†, <u>Caiqi Zhang†</u>, Tom Stafford, Nigel Collier, Andreas Vlachos
 
-- <strong><span style="color: #03396c;">TopViewRS: Vision-Language Models as Top-View Spatial Reasoners</span></strong> [[paper]](https://arxiv.org/abs/2406.02537)  
-  **EMNLP 2024 Main**  
-  Chengzu Li†, <u>Caiqi Zhang†</u>, Han Zhou, Nigel Collier, Anna Korhonen, Ivan Vulić.
+- <strong><span style="color: #03396c;">Atomic Calibration of LLMs in Long-Form Generations</span></strong> [[paper]](https://arxiv.org/abs/2410.13246)  
+  **preprint**  
+  <u>Caiqi Zhang</u>, Ruihan Yang, Zhisong Zhang, Xinting Huang, Sen Yang, Dong Yu, Nigel Collier
 
 - <strong><span style="color: #03396c;">LUQ: Long-text Uncertainty Quantification for LLMs</span></strong> [[paper]](https://arxiv.org/abs/2403.20279)  
   **EMNLP 2024 Main**  
@@ -62,6 +68,11 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
 - <strong><span style="color: #03396c;">Do We Need Language-Specific Fact-Checking Models? The Case of Chinese</span></strong>   [[paper]](https://arxiv.org/abs/2401.15498)  
   **EMNLP 2024 Main**   
   <u>Caiqi Zhang</u>, Zhijiang Guo, Andreas Vlachos.
+
+### Other Publications
+- <strong><span style="color: #03396c;">TopViewRS: Vision-Language Models as Top-View Spatial Reasoners</span></strong> [[paper]](https://arxiv.org/abs/2406.02537)  
+  **EMNLP 2024 Main**  
+  Chengzu Li†, <u>Caiqi Zhang†</u>, Han Zhou, Nigel Collier, Anna Korhonen, Ivan Vulić.
 
 - <strong><span style="color: #03396c;">Language is All a Graph Needs</span></strong>   [[paper]](https://aclanthology.org/2024.findings-eacl.132/)  
   **EACL 2024 Findings**   
@@ -72,7 +83,7 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
   Te-Lin Wu, <u>Caiqi Zhang</u>, Carol Hu, Alex Spangher, Nanyun (Violet) Peng.
 
 
-<details style="padding-left: 25px;">
+<!-- <details style="padding-left: 25px;">
   <summary style="cursor: pointer; color: #043361; font-weight: bold;">Other papers:</summary>
   
   <ul>
@@ -81,7 +92,7 @@ I am a first year Ph.D. student at the University of Cambridge, working under th
     <li><strong>PRUID: Practical User Interface Distribution for Multi-surface Computing.</strong> Menglong Cui, Mingsong Lv, Qingqiang He, <strong>Caiqi Zhang</strong>, Chuancai Gu, Tao Yang, Nan Guan. <em>58th ACM/IEEE Design Automation Conference</em> 2021.</li>
   </ul>
 </details>
-<br>
+<br> -->
 
 <details>
 
