@@ -61,6 +61,10 @@ I am a second year Ph.D. student at the University of Cambridge, working under t
   **preprint**  
   <u>Caiqi Zhang</u>, Ruihan Yang, Zhisong Zhang, Xinting Huang, Sen Yang, Dong Yu, Nigel Collier
 
+- <strong><span style="color: #03396c;">LoGU: Long-form Generation with Uncertainty Expressions</span></strong> [[paper]](https://arxiv.org/abs/2410.14309)  
+  **preprint**  
+  Ruihan Yang†, <u>Caiqi Zhang†</u>, Zhisong Zhang, Xinting Huang, Sen Yang, Nigel Collier, Dong Yu, Deqing Yang
+
 - <strong><span style="color: #03396c;">LUQ: Long-text Uncertainty Quantification for LLMs</span></strong> [[paper]](https://arxiv.org/abs/2403.20279)  
   **EMNLP 2024 Main**  
   <u>Caiqi Zhang</u>, Fangyu Liu, Marco Basaldella, Nigel Collier.
