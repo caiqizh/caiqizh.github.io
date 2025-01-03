@@ -11,3 +11,13 @@ Our project uses the source code from the following repositories:
 * [orderedlist/minimal](https://github.com/orderedlist/minimal)
 
 * [al-folio](https://github.com/alshedivat/al-folio)
+
+To run it locally:
+```
+bundle install
+bundle add webrick
+bundle exec jekyll server
+```
+
+http://localhost:4000/
+

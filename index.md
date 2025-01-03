@@ -53,37 +53,37 @@ I am a second year Ph.D. student at the University of Cambridge, working under t
 † denotes equal contribution.
 
 ### Featured Publications
-- <strong><span style="color: #03396c;">Conformity in Large Language Models</span></strong> [[paper]](https://arxiv.org/abs/2410.12428)  
-  **preprint**   
+- <strong><span style="color: #03396c;">Conformity in Large Language Models</span></strong>  
+  [Preprint](https://arxiv.org/abs/2410.12428)    
   Xiaochen Zhu†, <u>Caiqi Zhang†</u>, Tom Stafford, Nigel Collier, Andreas Vlachos
 
-- <strong><span style="color: #03396c;">Atomic Calibration of LLMs in Long-Form Generations</span></strong> [[paper]](https://arxiv.org/abs/2410.13246)  
-  **preprint**  
-  <u>Caiqi Zhang</u>, Ruihan Yang, Zhisong Zhang, Xinting Huang, Sen Yang, Dong Yu, Nigel Collier
-
-- <strong><span style="color: #03396c;">LoGU: Long-form Generation with Uncertainty Expressions</span></strong> [[paper]](https://arxiv.org/abs/2410.14309)  
-  **preprint**  
+- <strong><span style="color: #03396c;">LoGU: Long-form Generation with Uncertainty Expressions</span></strong>  
+  [Preprint](https://arxiv.org/abs/2410.14309)  
   Ruihan Yang†, <u>Caiqi Zhang†</u>, Zhisong Zhang, Xinting Huang, Sen Yang, Nigel Collier, Dong Yu, Deqing Yang
 
-- <strong><span style="color: #03396c;">LUQ: Long-text Uncertainty Quantification for LLMs</span></strong> [[paper]](https://arxiv.org/abs/2403.20279)  
-  **EMNLP 2024 Main**  
+- <strong><span style="color: #03396c;">Atomic Calibration of LLMs in Long-Form Generations</span></strong>  
+  [Preprint](https://arxiv.org/abs/2410.13246)  
+  <u>Caiqi Zhang</u>, Ruihan Yang, Zhisong Zhang, Xinting Huang, Sen Yang, Dong Yu, Nigel Collier
+
+- <strong><span style="color: #03396c;">LUQ: Long-text Uncertainty Quantification for LLMs</span></strong>  
+  [EMNLP 2024 Main](https://arxiv.org/abs/2403.20279)  
   <u>Caiqi Zhang</u>, Fangyu Liu, Marco Basaldella, Nigel Collier.
 
-- <strong><span style="color: #03396c;">Do We Need Language-Specific Fact-Checking Models? The Case of Chinese</span></strong>   [[paper]](https://arxiv.org/abs/2401.15498)  
-  **EMNLP 2024 Main**   
+- <strong><span style="color: #03396c;">Do We Need Language-Specific Fact-Checking Models? The Case of Chinese</span></strong>   
+  [EMNLP 2024 Main](https://arxiv.org/abs/2401.15498)  
   <u>Caiqi Zhang</u>, Zhijiang Guo, Andreas Vlachos.
 
 ### Other Publications
-- <strong><span style="color: #03396c;">TopViewRS: Vision-Language Models as Top-View Spatial Reasoners</span></strong> [[paper]](https://arxiv.org/abs/2406.02537)  
-  **EMNLP 2024 Main**  
+- <strong><span style="color: #03396c;">TopViewRS: Vision-Language Models as Top-View Spatial Reasoners</span></strong>  
+  [EMNLP 2024 Main](https://arxiv.org/abs/2406.02537)  
   Chengzu Li†, <u>Caiqi Zhang†</u>, Han Zhou, Nigel Collier, Anna Korhonen, Ivan Vulić.
 
-- <strong><span style="color: #03396c;">Language is All a Graph Needs</span></strong>   [[paper]](https://aclanthology.org/2024.findings-eacl.132/)  
-  **EACL 2024 Findings**   
+- <strong><span style="color: #03396c;">Language is All a Graph Needs</span></strong>   
+  [EACL 2024 Findings](https://aclanthology.org/2024.findings-eacl.132/)     
   Ruosong Ye, <u>Caiqi Zhang</u>, Runhui Wang, Shuyuan Xu, Yongfeng Zhang.
 
-- <strong><span style="color: #03396c;">Learning to Infer Action-Condition Dependencies from Instructional Manuals for Structural Instruction Understanding</span></strong>   [[paper]](https://aclanthology.org/2023.acl-long.170/)   
-  **ACL 2023 Main**  
+- <strong><span style="color: #03396c;">Learning to Infer Action-Condition Dependencies from Instructional Manuals for Structural Instruction Understanding</span></strong>   
+  [ACL 2023 Main](https://aclanthology.org/2023.acl-long.170/)     
   Te-Lin Wu, <u>Caiqi Zhang</u>, Carol Hu, Alex Spangher, Nanyun (Violet) Peng.
 
 
