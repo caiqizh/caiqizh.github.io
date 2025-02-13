@@ -19,7 +19,7 @@ I am a second year Ph.D. student at the University of Cambridge, working under t
 - **2022.10 - 2023.06:** University of Cambridge, M.Phil. in Advanced Computer Science.  
     - Pass with Distinction (Grade: 81%).
 - **2018.09 - 2022.06:** The Hong Kong Polytechnic University, B.Sc. in Computing. 
-    - Awarded the highest award for undergraduates: Outstanding Student of the Faculty of Engineering 2021/22. (Only one from more than 1000 students.) 
+    - Awarded the highest award for undergraduates: Outstanding Student of the Faculty of Engineering 2021/22. (Only 1 from more than 1000 students.) 
     [[News]](https://www.polyu.edu.hk/comp/news-and-events/news/2022/0324_osa_2021/)[[Sharing]](https://www.polyu.edu.hk/comp/-/media/department/comp/publication/private/comp-enews_2022-spring_for-final.pdf)[[YouTube]](https://www.youtube.com/watch?v=XTvlR4fFd0I)[[Facebook]](https://www.facebook.com/HongKongPolyU/photos/a.405574404548/10159955761959549)[[WeChat]](https://mp.weixin.qq.com/s/ev1wPnPmXhNR3dpaNlEWPA)
 <details style="margin-top: -20px; padding-left: 64px;">
   <summary style="cursor: pointer; color: #595959; font-weight: normal;">Scholarships:</summary>
@@ -66,17 +66,21 @@ I am a second year Ph.D. student at the University of Cambridge, working under t
   <u>Caiqi Zhang</u>, Ruihan Yang, Zhisong Zhang, Xinting Huang, Sen Yang, Dong Yu, Nigel Collier
 
 - <strong><span style="color: #03396c;">LUQ: Long-text Uncertainty Quantification for LLMs</span></strong>  
-  [EMNLP 2024 Main](https://arxiv.org/abs/2403.20279)  
+  [EMNLP 2024 Main](https://aclanthology.org/2024.emnlp-main.299/)  
   <u>Caiqi Zhang</u>, Fangyu Liu, Marco Basaldella, Nigel Collier.
 
 - <strong><span style="color: #03396c;">Do We Need Language-Specific Fact-Checking Models? The Case of Chinese</span></strong>   
-  [EMNLP 2024 Main](https://arxiv.org/abs/2401.15498)  
+  [EMNLP 2024 Main](https://aclanthology.org/2024.emnlp-main.113/)  
   <u>Caiqi Zhang</u>, Zhijiang Guo, Andreas Vlachos.
 
-### Other Publications
 - <strong><span style="color: #03396c;">TopViewRS: Vision-Language Models as Top-View Spatial Reasoners</span></strong>  
-  [EMNLP 2024 Main](https://arxiv.org/abs/2406.02537)  
+  [EMNLP 2024 Main (Oral)](https://aclanthology.org/2024.emnlp-main.106/)  
   Chengzu Li†, <u>Caiqi Zhang†</u>, Han Zhou, Nigel Collier, Anna Korhonen, Ivan Vulić.
+
+### Other Publications
+- <strong><span style="color: #03396c;">Can Large Language Models Generate High-quality Patent Claims?</span></strong>   
+  [NAACL 2025 Findings](https://arxiv.org/abs/2406.19465)     
+  Lekang Jiang, <u>Caiqi Zhang</u>, Pascal A Scherz, Stephan Goetz 
 
 - <strong><span style="color: #03396c;">Language is All a Graph Needs</span></strong>   
   [EACL 2024 Findings](https://aclanthology.org/2024.findings-eacl.132/)     
