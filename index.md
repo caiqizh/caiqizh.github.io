@@ -52,7 +52,7 @@ I am a second year Ph.D. student at the University of Cambridge, working under t
 ## &#x1F4DD; Publications 
 † denotes equal contribution.
 
-### Featured Publications
+### Core Research: Uncertainty in LLMs
 - <strong><span style="color: #03396c;">Conformity in Large Language Models</span></strong>  
   [Preprint](https://arxiv.org/abs/2410.12428)    
   Xiaochen Zhu†, <u>Caiqi Zhang†</u>, Tom Stafford, Nigel Collier, Andreas Vlachos
@@ -69,6 +69,7 @@ I am a second year Ph.D. student at the University of Cambridge, working under t
   [EMNLP 2024 Main](https://aclanthology.org/2024.emnlp-main.299/)  
   <u>Caiqi Zhang</u>, Fangyu Liu, Marco Basaldella, Nigel Collier.
 
+### Other First & Co-First Papers
 - <strong><span style="color: #03396c;">Do We Need Language-Specific Fact-Checking Models? The Case of Chinese</span></strong>   
   [EMNLP 2024 Main](https://aclanthology.org/2024.emnlp-main.113/)  
   <u>Caiqi Zhang</u>, Zhijiang Guo, Andreas Vlachos.
@@ -77,7 +78,7 @@ I am a second year Ph.D. student at the University of Cambridge, working under t
   [EMNLP 2024 Main (Oral)](https://aclanthology.org/2024.emnlp-main.106/)  
   Chengzu Li†, <u>Caiqi Zhang†</u>, Han Zhou, Nigel Collier, Anna Korhonen, Ivan Vulić.
 
-### Other Publications
+### Other Collaborations
 - <strong><span style="color: #03396c;">Can Large Language Models Generate High-quality Patent Claims?</span></strong>   
   [NAACL 2025 Findings](https://arxiv.org/abs/2406.19465)     
   Lekang Jiang, <u>Caiqi Zhang</u>, Pascal A Scherz, Stephan Goetz 
