@@ -54,15 +54,15 @@ I am a second year Ph.D. student at the University of Cambridge, working under t
 
 ### Core Research: Uncertainty in LLMs
 - <strong><span style="color: #03396c;">Conformity in Large Language Models</span></strong>  
-  [Preprint](https://arxiv.org/abs/2410.12428)    
+  [ACL 2025 Main](https://arxiv.org/abs/2410.12428)    
   Xiaochen Zhu†, <u>Caiqi Zhang†</u>, Tom Stafford, Nigel Collier, Andreas Vlachos
 
 - <strong><span style="color: #03396c;">LoGU: Long-form Generation with Uncertainty Expressions</span></strong>  
-  [Preprint](https://arxiv.org/abs/2410.14309)  
+  [ACL 2025 Main](https://arxiv.org/abs/2410.14309)  
   Ruihan Yang†, <u>Caiqi Zhang†</u>, Zhisong Zhang, Xinting Huang, Sen Yang, Nigel Collier, Dong Yu, Deqing Yang
 
 - <strong><span style="color: #03396c;">Atomic Calibration of LLMs in Long-Form Generations</span></strong>  
-  [Preprint](https://arxiv.org/abs/2410.13246)  
+  [NAACL 2024 TrustNLP](https://arxiv.org/abs/2410.13246)  
   <u>Caiqi Zhang</u>, Ruihan Yang, Zhisong Zhang, Xinting Huang, Sen Yang, Dong Yu, Nigel Collier
 
 - <strong><span style="color: #03396c;">LUQ: Long-text Uncertainty Quantification for LLMs</span></strong>  
