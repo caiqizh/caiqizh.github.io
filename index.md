@@ -53,6 +53,14 @@ I am a second year Ph.D. student at the University of Cambridge, working under t
 † denotes equal contribution.
 
 ### Core Research: Uncertainty in LLMs
+- <strong><span style="color: #03396c;">Reinforcement Learning for Better Verbalized Confidence in Long-Form Generation</span></strong>  
+  [Preprint](https://arxiv.org/abs/2505.23912)    
+  <u>Caiqi Zhang†</u>, Xiaochen Zhu†, Chengzu Li, Nigel Collier, Andreas Vlachos
+
+- <strong><span style="color: #03396c;">UNCLE: Benchmarking Uncertainty Expressions in Long-Form Generation</span></strong>  
+  [Preprint](https://arxiv.org/abs/2505.16922)  
+  Ruihan Yang†, <u>Caiqi Zhang†</u>, Zhisong Zhang, Xinting Huang, Sen Yang, Nigel Collier, Dong Yu, Deqing Yang
+
 - <strong><span style="color: #03396c;">Conformity in Large Language Models</span></strong>  
   [ACL 2025 Main](https://arxiv.org/abs/2410.12428)    
   Xiaochen Zhu†, <u>Caiqi Zhang†</u>, Tom Stafford, Nigel Collier, Andreas Vlachos
