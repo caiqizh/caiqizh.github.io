@@ -42,10 +42,11 @@ I am a second year Ph.D. student at the University of Cambridge, working under t
 ## &#x1F468;&#x200D;&#x1F4BB; Internships
 
 - [PolyU NLP Group](https://polyunlp.github.io/home); Research Assistant; Mar 2021 - June 2022 
-  <!-- - Supervised by Prof. Maggie Wenjie Li and Dr. Yongqi Li. -->
+  - Work with Prof. Maggie Wenjie Li and Dr. Yongqi Li.
 - [PlusLab](https://violetpeng.github.io/); University of California, Los Angeles; Research Intern; 2021 Summer
-  <!-- - Supervised by Dr. Te-Lin Wu -->
+  - Work with Dr. Nanyun Peng and Dr. Te-Lin Wu.
 - [Tencent AI Lab](https://ailab.tencent.com/ailab/en/index/); Research Intern; 2024 Summer
+  - Work with Dr. Zhizong Zhang and Dr. Xinting Huang.
 
 <!-- {% include_relative _includes/publications.md %} -->
 
