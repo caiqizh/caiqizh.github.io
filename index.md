@@ -4,7 +4,7 @@ layout: homepage
 
 ## &#x1F64B; About Me
 
-I am a second year Ph.D. student at the University of Cambridge, working under the supervision of [Prof. Nigel Collier](https://sites.google.com/site/nhcollier/home). Previously, I completed my MPhil degree at Cambridge, focusing on fact-checking under the guidance of [Prof. Andreas Vlachos](https://andreasvlachos.github.io/) and [Dr. Zhijiang Guo](https://cartus.github.io/). During my undergraduate studies, I completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) on conversational QA systems and interned at UCLA under the supervision of [Dr. Nanyun Peng](https://vnpeng.net/). 
+I am a third year Ph.D. student at the University of Cambridge, working under the supervision of [Prof. Nigel Collier](https://sites.google.com/site/nhcollier/home). Previously, I completed my MPhil degree at Cambridge, focusing on fact-checking under the guidance of [Prof. Andreas Vlachos](https://andreasvlachos.github.io/) and [Dr. Zhijiang Guo](https://cartus.github.io/). During my undergraduate studies, I completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) on conversational QA systems and interned at UCLA under the supervision of [Dr. Nanyun Peng](https://vnpeng.net/). 
 
 
 ## &#x1F9D0; Research Interests 
