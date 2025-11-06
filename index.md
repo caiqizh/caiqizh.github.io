@@ -57,9 +57,15 @@ I am a third year Ph.D. student at the University of Cambridge, working under th
       <li>Work with Dr. Zhizong Zhang and Dr. Xinting Huang.</li>
     </ul>
   </li>
-  <li><a href="https://ailab.tencent.com/ailab/en/index/">J.P. Morgan AI Research</a>; Research Intern (Full-time); 3 months, 2025
+  <li><a href="https://www.jpmorganchase.com/about/technology/research/ai">J.P. Morgan AI Research</a>; Research Intern (Full-time); 3 months, 2025
     <ul style="margin-top: 2px; margin-bottom: 2px;">
       <li>Work with Dr. Elizabeth Fons and Dr. Vamsi Potluru.</li>
+    </ul>
+  </li>
+    <li><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a>; Research Intern (Full-time); 3 months, 2025
+    <ul style="margin-top: 2px; margin-bottom: 2px;">
+      <!-- <li>Work with Dr. Molly.</li> -->
+
     </ul>
   </li>
 </ul>
