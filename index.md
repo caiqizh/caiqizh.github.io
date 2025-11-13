@@ -4,12 +4,21 @@ layout: homepage
 
 ## &#x1F64B; About Me
 
-I am a third year Ph.D. student at the University of Cambridge, working under the supervision of [Prof. Nigel Collier](https://sites.google.com/site/nhcollier/home). Previously, I completed my MPhil degree at Cambridge, focusing on fact-checking under the guidance of [Prof. Andreas Vlachos](https://andreasvlachos.github.io/) and [Dr. Zhijiang Guo](https://cartus.github.io/). During my undergraduate studies, I completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) on conversational QA systems and interned at UCLA under the supervision of [Dr. Nanyun Peng](https://vnpeng.net/). 
+I am a third year Ph.D. student at the University of Cambridge, working under the supervision of [Prof. Nigel Collier](https://sites.google.com/site/nhcollier/home). Previously, I completed my MPhil degree at Cambridge, focusing on fact-checking under the guidance of [Prof. Andreas Vlachos](https://andreasvlachos.github.io/) and [Dr. Zhijiang Guo](https://cartus.github.io/). 
+
+During my PhD studies, I did research internships in [Tencent AI Lab](https://ailab.tencent.com/ailab/en/index/), [J.P. Morgan AI Research](https://www.jpmorganchase.com/about/technology/research/ai), and [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/). 
+
+During my undergraduate studies, I completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) on conversational QA systems and interned at UCLA under the supervision of [Dr. Nanyun Peng](https://vnpeng.net/). 
 
 
 ## &#x1F9D0; Research Interests 
 
-- **Uncertainty in Large Language Models:** How can we quantify the uncertainty of LLMs for a given question?
+- **Uncertainty in Large Language Models** 
+  <ul style="margin-top:0; margin-bottom:0;">
+    <li>How can we quantify the uncertainty of LLMs for a given question?</li>
+    <li>How can we teach the LLMs to proactively express uncertainties?</li>
+  </ul>
+
 - **Factuality in Large Language Models:** How can we reduce hallucinations in LLMs?
 
 ## &#x1F4DA; Education 
@@ -78,6 +87,12 @@ I am a third year Ph.D. student at the University of Cambridge, working under th
 † denotes equal contribution.
 
 ### Core Research: Uncertainty in LLMs
+
+- <strong><span style="color: #03396c;">Beyond the Final Layer: Intermediate Representations for Better Multilingual Calibration in Large Language Models</span></strong>  
+  [Preprint](https://www.arxiv.org/abs/2510.03136)    
+  Ej Zhou, <u>Caiqi Zhang†</u>, Tiancheng Hu, Chengzu Li, Nigel Collier, Ivan Vulić, Anna Korhonen
+
+
 - <strong><span style="color: #03396c;">Reinforcement Learning for Better Verbalized Confidence in Long-Form Generation</span></strong>  
   [Preprint](https://arxiv.org/abs/2505.23912)    
   <u>Caiqi Zhang†</u>, Xiaochen Zhu†, Chengzu Li, Nigel Collier, Andreas Vlachos
@@ -88,7 +103,7 @@ I am a third year Ph.D. student at the University of Cambridge, working under th
 
 - <strong><span style="color: #03396c;">Graph-Based Confidence Estimation for Large Language Model Reasoning</span></strong>  
   [EMNLP 2025 Main](caiqizh.github.io)  
-  <u>Caiqi Zhang†</u>, Chang Shu, Ehsan Shareghi, Nigel Collier
+  <u>Caiqi Zhang</u>, Chang Shu, Ehsan Shareghi, Nigel Collier
 
 - <strong><span style="color: #03396c;">Conformity in Large Language Models</span></strong>  
   [ACL 2025 Main](https://arxiv.org/abs/2410.12428)    
@@ -99,7 +114,7 @@ I am a third year Ph.D. student at the University of Cambridge, working under th
   Ruihan Yang†, <u>Caiqi Zhang†</u>, Zhisong Zhang, Xinting Huang, Sen Yang, Nigel Collier, Dong Yu, Deqing Yang
 
 - <strong><span style="color: #03396c;">Atomic Calibration of LLMs in Long-Form Generations</span></strong>  
-  [ACL 2025 KnowFM Oral](https://arxiv.org/abs/2410.13246)  
+  [ACL 2025 KnowFM Oral / AACL-IJNLP 2025](https://arxiv.org/abs/2410.13246)  
   <u>Caiqi Zhang</u>, Ruihan Yang, Zhisong Zhang, Xinting Huang, Sen Yang, Dong Yu, Nigel Collier
 
 - <strong><span style="color: #03396c;">LUQ: Long-text Uncertainty Quantification for LLMs</span></strong>  
