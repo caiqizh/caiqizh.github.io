@@ -1,12 +1,32 @@
 ---
 layout: homepage
 ---
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ 
+    startOnLoad: true, 
+    securityLevel: 'loose',
+    theme: 'base',
+    flowchart: { 
+        curve: 'basis',
+        rankSpacing: 90, /* Increased horizontal space for labels */
+        nodeSpacing: 15  /* Increased vertical space between branches */
+    },
+    themeVariables: {
+      primaryColor: '#e3f2fd',
+      primaryTextColor: '#03396c',
+      lineColor: '#03396c',
+      mainBkg: '#ffffff',
+      edgeLabelBackground: '#ffffff', /* Ensures edge text is readable */
+    }
+});
+</script>
 
 ## &#x1F64B; About Me
 
 I am a third year Ph.D. student at the University of Cambridge, working under the supervision of [Prof. Nigel Collier](https://sites.google.com/site/nhcollier/home). Previously, I completed my MPhil degree at Cambridge, focusing on fact-checking under the guidance of [Prof. Andreas Vlachos](https://andreasvlachos.github.io/) and [Dr. Zhijiang Guo](https://cartus.github.io/). 
 
-During my PhD studies, I did research internships in [Tencent AI Lab](https://ailab.tencent.com/ailab/en/index/), [J.P. Morgan AI Research](https://www.jpmorganchase.com/about/technology/research/ai), and [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/). 
+During my PhD studies, I did research internships in [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), [J.P. Morgan AI Research](https://www.jpmorganchase.com/about/technology/research/ai), and [Tencent AI Lab](https://ailab.tencent.com/ailab/en/index/).
 
 During my undergraduate studies, I completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) on conversational QA systems and interned at UCLA under the supervision of [Dr. Nanyun Peng](https://vnpeng.net/). 
 
@@ -81,7 +101,70 @@ During my undergraduate studies, I completed my capstone project with [Prof. Wen
 
 <p></p>
 
-<!-- {% include_relative _includes/publications.md %} -->
+## 🗺️ Research Roadmap
+
+My research explores **Uncertainty & Calibration** in LLMs.
+<br>
+
+<div class="mermaid" style="display: flex; justify-content: center;">
+graph LR
+    %% --- NODES & HIERARCHY ---
+    
+    %% Root Node
+    Root(("🌲 <b>Uncertainty<br/>in LLMs</b>"))
+    
+    %% --- Branch 1: Factuality ---
+    Root --> Factuality("🔎 <b>Factuality</b>")
+    
+    %% Sub-category: Estimation
+    Factuality --> L_Est["<i>Post-hoc Estimation</i>"]
+    L_Est --> LUQ["📄 <b>LUQ</b>: First work on long-form UQ<br/>(EMNLP '24)"]
+    L_Est --> Atomic["⭐ <b>Atomic Calibration</b><br/>(IJCNLP '25)"]
+
+    %% Sub-category: Expression
+    Factuality --> L_Exp["<i>Proactive Expression</i>"]
+    L_Exp --> LoGU["🗣️ <b>LoGU</b>: Linguistic Expressions<br/>(ACL '25)"]
+    L_Exp --> UNCLE["📏 <b>UNCLE</b>: Benchmarking<br/>(EMNLP '25)"]
+    L_Exp --> RL["🧠 <b>RL for Verbalized Confidence</b><br/>(Preprint)"]
+
+    %% --- Branch 2: Reasoning ---
+    Root --> Reasoning("🧩 <b>Reasoning</b>")
+    Reasoning --> Rome["🗺️ <b>All Roads Lead to Rome</b><br/>(EMNLP '25)"]
+
+    %% --- Branch 3: Multilingual ---
+    Root --> Multilingual("🌐 <b>Multilingual</b>")
+    Multilingual --> Beyond["🏗️ <b>Beyond Final Layer</b><br/>(Preprint)"]
+
+    %% --- Branch 4: Multiturn ---
+    Root --> Multiturn("💬 <b>Multiturn</b>")
+    Multiturn --> Conformity["👥 <b>Uncertainty leads to conformity</b><br/>(ACL '25)"]
+    Multiturn --> ConfMulti["🔄 <b>Confidence Estimation fails in Multiturns</b><br/>(Preprint)"]
+
+
+    %% --- LINKS ---
+    click LUQ "https://aclanthology.org/2024.emnlp-main.299/" "View Paper"
+    click Atomic "https://arxiv.org/abs/2410.13246" "View Paper"
+    click LoGU "https://arxiv.org/abs/2410.14309" "View Paper"
+    click UNCLE "https://arxiv.org/abs/2505.16922" "View Paper"
+    click RL "https://arxiv.org/abs/2505.23912" "View Paper"
+    click Beyond "https://www.arxiv.org/abs/2510.03136" "View Paper"
+    click Rome "https://arxiv.org/abs/2509.12908" "View Paper"
+    click Conformity "https://arxiv.org/abs/2410.12428" "View Paper"
+
+    %% --- STYLING ---
+    classDef main fill:#ffffff,stroke:#03396c,stroke-width:2px,color:white,font-size:18px;
+    classDef domain fill:#ffffff,stroke:#03396c,stroke-width:2px,rx:10,ry:10,color:#03396c;
+    classDef label fill:#fff,stroke:none,color:#666,font-size:15px; 
+    classDef paper fill:#fff,stroke:#ddd,stroke-width:1px,rx:5,ry:5,color:#333;
+
+    %% Apply Classes
+    class Root main;
+    class Factuality,Reasoning,Multilingual,Multiturn domain;
+    class L_Est,L_Exp label;
+    class LUQ,LoGU,UNCLE,RL,Rome,Beyond,ConfMulti,Atomic,Conformity paper;
+
+</div>
+
 
 ## &#x1F4DD; Publications 
 † denotes equal contribution.
@@ -101,8 +184,9 @@ During my undergraduate studies, I completed my capstone project with [Prof. Wen
   [EMNLP 2025 Main](https://arxiv.org/abs/2505.16922)  
   Ruihan Yang†, <u>Caiqi Zhang†</u>, Zhisong Zhang, Xinting Huang, Dong Yu, Nigel Collier, Deqing Yang
 
-- <strong><span style="color: #03396c;">Graph-Based Confidence Estimation for Large Language Model Reasoning</span></strong>  
-  [EMNLP 2025 Main](caiqizh.github.io)  
+- <strong><span style="color: #03396c;">All Roads Lead to Rome: Graph-Based Confidence Estimation for LLM Reasoning
+</span></strong>  
+  [EMNLP 2025 Main](https://arxiv.org/abs/2509.12908)  
   <u>Caiqi Zhang</u>, Chang Shu, Ehsan Shareghi, Nigel Collier
 
 - <strong><span style="color: #03396c;">Conformity in Large Language Models</span></strong>  
