@@ -71,32 +71,38 @@ During my undergraduate studies, I completed my capstone project with [Prof. Wen
 ## &#x1F468;&#x200D;&#x1F4BB; Internships
 
 <ul style="margin-top: 2px; margin-bottom: 2px; padding-left: 20px;">
-  <li><a href="https://polyunlp.github.io/home">PolyU NLP Group</a>; Research Assistant (Part-time); 12 months, 2021-2022
+  <li><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a>; Research Intern (Full-time); 2025
     <ul style="margin-top: 2px; margin-bottom: 2px;">
-      <li>Work with Prof. Maggie Wenjie Li and Dr. Yongqi Li.</li>
+      <!-- <li>Work with Dr. Molly.</li> -->
     </ul>
   </li>
-  <li><a href="https://violetpeng.github.io/">PlusLab</a>; University of California, Los Angeles; Research Intern (Part-time); 6 months, 2021
-    <ul style="margin-top: 2px; margin-bottom: 2px;">
-      <li>Work with Dr. Nanyun Peng and Dr. Te-Lin Wu.</li>
-    </ul>
-  </li>
-  <li><a href="https://ailab.tencent.com/ailab/en/index/">Tencent AI Lab</a>; Research Intern (Full-time); 6 months, 2024
-    <ul style="margin-top: 2px; margin-bottom: 2px;">
-      <li>Work with Dr. Zhizong Zhang and Dr. Xinting Huang.</li>
-    </ul>
-  </li>
+
   <li><a href="https://www.jpmorganchase.com/about/technology/research/ai">J.P. Morgan AI Research</a>; Research Intern (Full-time); 3 months, 2025
     <ul style="margin-top: 2px; margin-bottom: 2px;">
       <li>Work with Dr. Elizabeth Fons and Dr. Vamsi Potluru.</li>
     </ul>
   </li>
-    <li><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a>; Research Intern (Full-time); 3 months, 2025
-    <ul style="margin-top: 2px; margin-bottom: 2px;">
-      <!-- <li>Work with Dr. Molly.</li> -->
 
+  <li><a href="https://ailab.tencent.com/ailab/en/index/">Tencent AI Lab</a>; Research Intern (Full-time); 6 months, 2024
+    <ul style="margin-top: 2px; margin-bottom: 2px;">
+      <li>Work with Dr. Zhizong Zhang and Dr. Xinting Huang.</li>
     </ul>
   </li>
+
+  <li><a href="https://violetpeng.github.io/">PlusLab</a>; University of California, Los Angeles; Research Intern (Part-time); 6 months, 2021
+    <ul style="margin-top: 2px; margin-bottom: 2px;">
+      <li>Work with Dr. Nanyun Peng and Dr. Te-Lin Wu.</li>
+    </ul>
+  </li>
+
+  <li><a href="https://polyunlp.github.io/home">PolyU NLP Group</a>; Research Assistant (Part-time); 12 months, 2021-2022
+    <ul style="margin-top: 2px; margin-bottom: 2px;">
+      <li>Work with Prof. Maggie Wenjie Li and Dr. Yongqi Li.</li>
+    </ul>
+  </li>
+
+
+
 </ul>
 
 <p></p>
