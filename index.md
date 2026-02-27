@@ -28,7 +28,7 @@ I am a third year Ph.D. student at the University of Cambridge, working under th
 
 During my PhD studies, I did research internships in [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), [J.P. Morgan AI Research](https://www.jpmorganchase.com/about/technology/research/ai), and [Tencent AI Lab](https://ailab.tencent.com/ailab/en/index/).
 
-During my undergraduate studies, I completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) on conversational QA systems and interned at UCLA under the supervision of [Dr. Nanyun Peng](https://vnpeng.net/). 
+During my undergraduate studies, I interned at [PlusLab](https://violetpeng.github.io/) (UCLA) working with [Dr. Nanyun Peng](https://vnpeng.net/) and [Dr. Te-Lin Wu](https://telin0411.github.io/), and completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) and [Dr. Yongqi Li](https://liyongqi67.github.io/) at [PolyU NLP Group](https://polyunlp.github.io/home). 
 
 
 ## &#x1F9D0; Research Interests 
@@ -71,37 +71,23 @@ During my undergraduate studies, I completed my capstone project with [Prof. Wen
 ## &#x1F468;&#x200D;&#x1F4BB; Internships
 
 <ul style="margin-top: 2px; margin-bottom: 2px; padding-left: 20px;">
-  <li><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a>; Research Intern (Full-time); 2025
-    <ul style="margin-top: 2px; margin-bottom: 2px;">
-      <!-- <li>Work with Dr. Molly.</li> -->
-    </ul>
+  <li><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a>; Research Intern (Full-time); 3 months, 2025
+    <!-- <ul style="margin-top: 2px; margin-bottom: 2px;">
+      <li>Work with Dr. Molly Xia.</li>
+    </ul> -->
   </li>
 
   <li><a href="https://www.jpmorganchase.com/about/technology/research/ai">J.P. Morgan AI Research</a>; Research Intern (Full-time); 3 months, 2025
-    <ul style="margin-top: 2px; margin-bottom: 2px;">
+    <!-- <ul style="margin-top: 2px; margin-bottom: 2px;">
       <li>Work with Dr. Elizabeth Fons and Dr. Vamsi Potluru.</li>
-    </ul>
+    </ul> -->
   </li>
 
   <li><a href="https://ailab.tencent.com/ailab/en/index/">Tencent AI Lab</a>; Research Intern (Full-time); 6 months, 2024
-    <ul style="margin-top: 2px; margin-bottom: 2px;">
+    <!-- <ul style="margin-top: 2px; margin-bottom: 2px;">
       <li>Work with Dr. Zhizong Zhang and Dr. Xinting Huang.</li>
-    </ul>
+    </ul> -->
   </li>
-
-  <li><a href="https://violetpeng.github.io/">PlusLab</a>; University of California, Los Angeles; Research Intern (Part-time); 6 months, 2021
-    <ul style="margin-top: 2px; margin-bottom: 2px;">
-      <li>Work with Dr. Nanyun Peng and Dr. Te-Lin Wu.</li>
-    </ul>
-  </li>
-
-  <li><a href="https://polyunlp.github.io/home">PolyU NLP Group</a>; Research Assistant (Part-time); 12 months, 2021-2022
-    <ul style="margin-top: 2px; margin-bottom: 2px;">
-      <li>Work with Prof. Maggie Wenjie Li and Dr. Yongqi Li.</li>
-    </ul>
-  </li>
-
-
 
 </ul>
 
@@ -144,7 +130,8 @@ graph LR
     %% --- Branch 4: Multiturn ---
     Root --> Multiturn("💬 <b>Multiturn</b>")
     Multiturn --> Conformity["👥 <b>Uncertainty leads to conformity</b><br/>(ACL '25)"]
-    Multiturn --> ConfMulti["🔄 <b>Confidence Estimation fails in Multiturns</b><br/>(Preprint)"]
+    Multiturn --> ConfMulti["🔄 <b>Confidence in Multi-turn</b><br/>(Preprint)"]
+    Multiturn --> MAD["🗣️ <b>Confidence & Diversity in Debate</b><br/>(Preprint)"]
 
 
     %% --- LINKS ---
@@ -156,6 +143,8 @@ graph LR
     click Beyond "https://www.arxiv.org/abs/2510.03136" "View Paper"
     click Rome "https://arxiv.org/abs/2509.12908" "View Paper"
     click Conformity "https://arxiv.org/abs/2410.12428" "View Paper"
+    click ConfMulti "https://arxiv.org/abs/2601.02179" "View Paper"
+    click MAD "https://arxiv.org/abs/2601.19921" "View Paper"
 
     %% --- STYLING ---
     classDef main fill:#ffffff,stroke:#03396c,stroke-width:2px,color:white,font-size:18px;
@@ -167,15 +156,22 @@ graph LR
     class Root main;
     class Factuality,Reasoning,Multilingual,Multiturn domain;
     class L_Est,L_Exp label;
-    class LUQ,LoGU,UNCLE,RL,Rome,Beyond,ConfMulti,Atomic,Conformity paper;
+    class LUQ,LoGU,UNCLE,RL,Rome,Beyond,ConfMulti,Atomic,Conformity,MAD paper;
 
 </div>
 
 
 ## &#x1F4DD; Publications 
-† denotes equal contribution.
 
-### Core Research: Uncertainty in LLMs
+### Core Research: Uncertainty in LLMs († denotes equal contribution.)
+
+- <strong><span style="color: #03396c;">Demystifying Multi-Agent Debate: The Role of Confidence and Diversity</span></strong>  
+  [Preprint](https://arxiv.org/abs/2601.19921)    
+  Xiaochen Zhu†, <u>Caiqi Zhang†</u>, Yizhou Chi, Tom Stafford, Nigel Collier, Andreas Vlachos
+
+- <strong><span style="color: #03396c;">Confidence Estimation for LLMs in Multi-turn Interactions</span></strong>  
+  [Preprint](https://arxiv.org/abs/2601.02179)    
+  <u>Caiqi Zhang</u>, Ruihan Yang, Xiaochen Zhu, Chengzu Li, Tiancheng Hu, Yijiang River Dong, Deqing Yang, Nigel Collier
 
 - <strong><span style="color: #03396c;">Beyond the Final Layer: Intermediate Representations for Better Multilingual Calibration in Large Language Models</span></strong>  
   [Preprint](https://www.arxiv.org/abs/2510.03136)    
