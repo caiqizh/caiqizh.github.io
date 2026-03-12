@@ -99,7 +99,7 @@ During my undergraduate studies, I interned at [PlusLab](https://violetpeng.gith
 <p style="margin: 0 0 4px 0;"><strong>💡My Research Vision:</strong> Our need for uncertainty in LLMs depends on <strong>how we position them</strong>.</p>
 <ul style="margin: 0; padding-left: 20px;">
   <li>As <strong style="color: #5b9bd5;">tools</strong>, LLMs need uncertainty that can be <strong>📐measured</strong> for evaluation and risk control.</li>
-  <li>As <strong style="color: #5b9bd5;">collaborators</strong>, they must be able to <strong>💬express</strong> uncertainty in ways humans can understand and act on. And in human-AI or multi-agent settings, uncertainty fundamentally shapes <strong>🤝interaction</strong>.</li>
+  <li>As <strong style="color: #5b9bd5;">collaborators</strong>, LLMs must be able to proactively <strong>🗣️express</strong> uncertainty in human-interpretable ways and <strong>🤝interact</strong> under uncertainty through clarification, deferral, and trust calibration.</li>
 </ul>
 <p style="margin: 4px 0 0 0;">My research studies these three connected dimensions of uncertainty in LLMs: <strong>measurement, expression, and interaction</strong>.</p>
 
