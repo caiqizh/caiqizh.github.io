@@ -9,8 +9,8 @@ mermaid.initialize({
     theme: 'base',
     flowchart: { 
         curve: 'basis',
-        rankSpacing: 90, /* Increased horizontal space for labels */
-        nodeSpacing: 15  /* Increased vertical space between branches */
+        rankSpacing: 70, /* Controls arrow length between columns */
+        nodeSpacing: 20  /* Vertical space between branches */
     },
     themeVariables: {
       primaryColor: '#e3f2fd',
@@ -30,7 +30,7 @@ During my PhD studies, I did research internships in [Microsoft Research](https:
 
 During my undergraduate studies, I interned at [PlusLab](https://violetpeng.github.io/) (UCLA) working with [Dr. Nanyun Peng](https://vnpeng.net/) and [Dr. Te-Lin Wu](https://telin0411.github.io/), and completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) and [Dr. Yongqi Li](https://liyongqi67.github.io/) at [PolyU NLP Group](https://polyunlp.github.io/home). 
 
-
+<!-- 
 ## &#x1F9D0; Research Interests 
 
 - **Uncertainty in Large Language Models** 
@@ -39,7 +39,7 @@ During my undergraduate studies, I interned at [PlusLab](https://violetpeng.gith
     <li>How can we teach the LLMs to proactively express uncertainties?</li>
   </ul>
 
-- **Factuality in Large Language Models:** How can we reduce hallucinations in LLMs?
+- **Factuality in Large Language Models:** How can we reduce hallucinations in LLMs? -->
 
 ## &#x1F4DA; Education 
 
@@ -95,43 +95,48 @@ During my undergraduate studies, I interned at [PlusLab](https://violetpeng.gith
 
 ## 🗺️ Research Roadmap
 
-My research explores **Uncertainty & Calibration** in LLMs.
-<br>
 
-<div class="mermaid" style="display: flex; justify-content: center;">
+<p style="margin: 0 0 4px 0;"><strong>💡My Research Vision:</strong> Our need for uncertainty in LLMs depends on <strong>how we position them</strong>.</p>
+<ul style="margin: 0; padding-left: 20px;">
+  <li>As <strong style="color: #5b9bd5;">tools</strong>, LLMs need uncertainty that can be <strong>📐measured</strong> for evaluation and risk control.</li>
+  <li>As <strong style="color: #5b9bd5;">collaborators</strong>, they must be able to <strong>💬express</strong> uncertainty in ways humans can understand and act on. And in human-AI or multi-agent settings, uncertainty fundamentally shapes <strong>🤝interaction</strong>.</li>
+</ul>
+<p style="margin: 4px 0 0 0;">My research studies these three connected dimensions of uncertainty in LLMs: <strong>measurement, expression, and interaction</strong>.</p>
+
+<p></p>
+
+<div class="mermaid" style="display: flex; justify-content: center; max-width: 600px; margin: 0 auto; font-size: 13px;">
 graph LR
     %% --- NODES & HIERARCHY ---
     
     %% Root Node
     Root(("🌲 <b>Uncertainty<br/>in LLMs</b>"))
     
-    %% --- Branch 1: Factuality ---
-    Root --> Factuality("🔎 <b>Factuality</b>")
-    
-    %% Sub-category: Estimation
-    Factuality --> L_Est["<i>Post-hoc Estimation</i>"]
-    L_Est --> LUQ["📄 <b>LUQ</b>: First work on long-form UQ<br/>(EMNLP '24)"]
-    L_Est --> Atomic["⭐ <b>Atomic Calibration</b><br/>(IJCNLP '25)"]
+    %% --- Branch 1: Measurement ---
+    Root --> Measurement("📐 <b>Measurement</b>")
+    Measurement --> M_Fact["<i>Long-form Factuality</i>"]
+    M_Fact --> LUQ["📄 <b>LUQ</b>: First work on long-form UQ<br/>(EMNLP '24)"]
+    M_Fact --> Atomic["⭐ <b>Atomic Calibration</b><br/>(IJCNLP '25)"]
+    Measurement --> M_Reason["<i>Reasoning</i>"]
+    M_Reason --> Rome["🗺️ <b>All Roads Lead to Rome</b><br/>(EMNLP '25)"]
+    Measurement --> M_Multi["<i>Multilingual</i>"]
+    M_Multi --> Beyond["🏗️ <b>Beyond Final Layer</b><br/>(Preprint)"]
 
-    %% Sub-category: Expression
-    Factuality --> L_Exp["<i>Proactive Expression</i>"]
-    L_Exp --> LoGU["🗣️ <b>LoGU</b>: Linguistic Expressions<br/>(ACL '25)"]
-    L_Exp --> UNCLE["📏 <b>UNCLE</b>: Benchmarking<br/>(EMNLP '25)"]
-    L_Exp --> RL["🧠 <b>RL for Verbalized Confidence</b><br/>(Preprint)"]
+    %% --- Branch 2: Expression ---
+    Root --> Expression("🗣️ <b>Expression</b>")
+    Expression --> E_Bench["<i>Benchmarking</i>"]
+    E_Bench --> UNCLE["📏 <b>UNCLE</b>: Benchmarking<br/>(EMNLP '25)"]
+    Expression --> E_Learn["<i>Learning to Express</i>"]
+    E_Learn --> LoGU["💬 <b>LoGU</b>: Linguistic Expressions<br/>(ACL '25)"]
+    E_Learn --> RL["🧠 <b>RL for Verbalized Confidence</b><br/>(Preprint)"]
 
-    %% --- Branch 2: Reasoning ---
-    Root --> Reasoning("🧩 <b>Reasoning</b>")
-    Reasoning --> Rome["🗺️ <b>All Roads Lead to Rome</b><br/>(EMNLP '25)"]
-
-    %% --- Branch 3: Multilingual ---
-    Root --> Multilingual("🌐 <b>Multilingual</b>")
-    Multilingual --> Beyond["🏗️ <b>Beyond Final Layer</b><br/>(Preprint)"]
-
-    %% --- Branch 4: Multiturn ---
-    Root --> Multiturn("💬 <b>Multiturn</b>")
-    Multiturn --> Conformity["👥 <b>Uncertainty leads to conformity</b><br/>(ACL '25)"]
-    Multiturn --> ConfMulti["🔄 <b>Confidence in Multi-turn</b><br/>(Preprint)"]
-    Multiturn --> MAD["🗣️ <b>Confidence & Diversity in Debate</b><br/>(Preprint)"]
+    %% --- Branch 3: Interaction ---
+    Root --> Interaction("🤝 <b>Interaction</b>")
+    Interaction --> I_Social["<i>Social Influence</i>"]
+    I_Social --> Conformity["👥 <b>Uncertainty leads to conformity</b><br/>(ACL '25)"]
+    Interaction --> I_Multi["<i>Multi-turn & Debate</i>"]
+    I_Multi --> ConfMulti["🔄 <b>Confidence in Multi-turn</b><br/>(Preprint)"]
+    I_Multi --> MAD["🎙️ <b>Confidence & Diversity in Debate</b><br/>(Preprint)"]
 
 
     %% --- LINKS ---
@@ -147,15 +152,15 @@ graph LR
     click MAD "https://arxiv.org/abs/2601.19921" "View Paper"
 
     %% --- STYLING ---
-    classDef main fill:#ffffff,stroke:#03396c,stroke-width:2px,color:white,font-size:18px;
-    classDef domain fill:#ffffff,stroke:#03396c,stroke-width:2px,rx:10,ry:10,color:#03396c;
-    classDef label fill:#fff,stroke:none,color:#666,font-size:15px; 
-    classDef paper fill:#fff,stroke:#ddd,stroke-width:1px,rx:5,ry:5,color:#333;
+    classDef main fill:#ffffff,stroke:#03396c,stroke-width:2px,color:white,font-size:14px;
+    classDef domain fill:#ffffff,stroke:#03396c,stroke-width:2px,rx:10,ry:10,color:#03396c,font-size:13px;
+    classDef label fill:#fff,stroke:none,color:#666,font-size:12px;
+    classDef paper fill:#fff,stroke:#ddd,stroke-width:1px,rx:5,ry:5,color:#333,font-size:12px;
 
     %% Apply Classes
     class Root main;
-    class Factuality,Reasoning,Multilingual,Multiturn domain;
-    class L_Est,L_Exp label;
+    class Measurement,Expression,Interaction domain;
+    class M_Fact,M_Reason,M_Multi,E_Bench,E_Learn,I_Social,I_Multi label;
     class LUQ,LoGU,UNCLE,RL,Rome,Beyond,ConfMulti,Atomic,Conformity,MAD paper;
 
 </div>
@@ -208,6 +213,10 @@ graph LR
   <u>Caiqi Zhang</u>, Fangyu Liu, Marco Basaldella, Nigel Collier.
 
 ### Other First & Co-First Papers
+- <strong><span style="color: #03396c;">Budget-Aware Agentic Routing via Boundary-Guided Training</span></strong>  
+  [Preprint](https://arxiv.org/abs/2602.21227)    
+  <u>Caiqi Zhang</u>, Menglin Xia, Xuchao Zhang, Daniel Madrigal, Ankur Mallick, Samuel Kessler, Victor Ruehle, Saravan Rajmohan
+
 - <strong><span style="color: #03396c;">Do We Need Language-Specific Fact-Checking Models? The Case of Chinese</span></strong>   
   [EMNLP 2024 Main](https://aclanthology.org/2024.emnlp-main.113/)  
   <u>Caiqi Zhang</u>, Zhijiang Guo, Andreas Vlachos.
