@@ -26,7 +26,7 @@ mermaid.initialize({
 
 I am a third year Ph.D. student at the University of Cambridge, working under the supervision of [Prof. Nigel Collier](https://sites.google.com/site/nhcollier/home). Previously, I completed my MPhil degree at Cambridge, focusing on fact-checking under the guidance of [Prof. Andreas Vlachos](https://andreasvlachos.github.io/) and [Dr. Zhijiang Guo](https://cartus.github.io/). 
 
-During my PhD studies, I did research internships in [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), [J.P. Morgan AI Research](https://www.jpmorganchase.com/about/technology/research/ai), and [Tencent AI Lab](https://ailab.tencent.com/ailab/en/index/).
+During my PhD studies, I did research internships in [Google](https://research.google/teams/cloud-ai-research/), [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), [J.P. Morgan AI Research](https://www.jpmorganchase.com/about/technology/research/ai), and [Tencent AI Lab](https://ailab.tencent.com/ailab/en/index/).
 
 During my undergraduate studies, I interned at [PlusLab](https://violetpeng.github.io/) (UCLA) working with [Dr. Nanyun Peng](https://vnpeng.net/) and [Dr. Te-Lin Wu](https://telin0411.github.io/), and completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) and [Dr. Yongqi Li](https://liyongqi67.github.io/) at [PolyU NLP Group](https://polyunlp.github.io/home). 
 
@@ -71,6 +71,12 @@ During my undergraduate studies, I interned at [PlusLab](https://violetpeng.gith
 ## &#x1F468;&#x200D;&#x1F4BB; Internships
 
 <ul style="margin-top: 2px; margin-bottom: 2px; padding-left: 20px;">
+  <li><a href="https://research.google/teams/cloud-ai-research/">Google</a>; Research Intern (Full-time); 2026
+    <!-- <ul style="margin-top: 2px; margin-bottom: 2px;">
+      <li>Upcoming.</li>
+    </ul> -->
+  </li>
+
   <li><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a>; Research Intern (Full-time); 3 months, 2025
     <!-- <ul style="margin-top: 2px; margin-bottom: 2px;">
       <li>Work with Dr. Molly Xia.</li>
@@ -97,9 +103,9 @@ During my undergraduate studies, I interned at [PlusLab](https://violetpeng.gith
 
 
 <p style="margin: 0 0 4px 0;"><strong>💡My Research Vision:</strong> Our need for uncertainty in LLMs depends on <strong>how we position them</strong>.</p>
-<ul style="margin: 0; padding-left: 20px;">
+<ul style="margin: 0; padding-left: 40px;">
   <li>As <strong style="color: #5b9bd5;">tools</strong>, LLMs need uncertainty that can be <strong>📐measured</strong> for evaluation and risk control.</li>
-  <li>As <strong style="color: #5b9bd5;">collaborators</strong>, LLMs must be able to proactively <strong>🗣️express</strong> uncertainty in human-interpretable ways and <strong>🤝interact</strong> under uncertainty through clarification, deferral, and trust calibration.</li>
+  <li>As <strong style="color: #5b9bd5;">collaborators</strong>, they must be able to <strong>💬express</strong> uncertainty in ways humans can understand and act on. And in human-AI or multi-agent settings, uncertainty fundamentally shapes <strong>🤝interaction</strong>.</li>
 </ul>
 <p style="margin: 4px 0 0 0;">My research studies these three connected dimensions of uncertainty in LLMs: <strong>measurement, expression, and interaction</strong>.</p>
 
@@ -128,15 +134,15 @@ graph LR
     E_Bench --> UNCLE["📏 <b>UNCLE</b>: Benchmarking<br/>(EMNLP '25)"]
     Expression --> E_Learn["<i>Learning to Express</i>"]
     E_Learn --> LoGU["💬 <b>LoGU</b>: Linguistic Expressions<br/>(ACL '25)"]
-    E_Learn --> RL["🧠 <b>RL for Verbalized Confidence</b><br/>(Preprint)"]
+    E_Learn --> RL["🧠 <b>RL for Verbalized Confidence</b><br/>(ACL '26)"]
 
     %% --- Branch 3: Interaction ---
     Root --> Interaction("🤝 <b>Interaction</b>")
     Interaction --> I_Social["<i>Social Influence</i>"]
     I_Social --> Conformity["👥 <b>Uncertainty leads to conformity</b><br/>(ACL '25)"]
     Interaction --> I_Multi["<i>Multi-turn & Debate</i>"]
-    I_Multi --> ConfMulti["🔄 <b>Confidence in Multi-turn</b><br/>(Preprint)"]
-    I_Multi --> MAD["🎙️ <b>Confidence & Diversity in Debate</b><br/>(Preprint)"]
+    I_Multi --> ConfMulti["🔄 <b>Confidence in Multi-turn</b><br/>(ACL '26)"]
+    I_Multi --> MAD["🎙️ <b>Confidence & Diversity in Debate</b><br/>(ACL '26)"]
 
 
     %% --- LINKS ---
@@ -168,23 +174,26 @@ graph LR
 
 ## &#x1F4DD; Publications 
 
-### Core Research: Uncertainty in LLMs († denotes equal contribution.)
+### First & Co-First Papers († denotes equal contribution.)
 
-- <strong><span style="color: #03396c;">Demystifying Multi-Agent Debate: The Role of Confidence and Diversity</span></strong>  
-  [Preprint](https://arxiv.org/abs/2601.19921)    
-  Xiaochen Zhu†, <u>Caiqi Zhang†</u>, Yizhou Chi, Tom Stafford, Nigel Collier, Andreas Vlachos
-
-- <strong><span style="color: #03396c;">Confidence Estimation for LLMs in Multi-turn Interactions</span></strong>  
-  [Preprint](https://arxiv.org/abs/2601.02179)    
-  <u>Caiqi Zhang</u>, Ruihan Yang, Xiaochen Zhu, Chengzu Li, Tiancheng Hu, Yijiang River Dong, Deqing Yang, Nigel Collier
+- <strong><span style="color: #03396c;">Budget-Aware Agentic Routing via Boundary-Guided Training</span></strong>  
+  [Preprint](https://arxiv.org/abs/2602.21227)    
+  <u>Caiqi Zhang</u>, Menglin Xia, Xuchao Zhang, Daniel Madrigal, Ankur Mallick, Samuel Kessler, Victor Ruehle, Saravan Rajmohan
 
 - <strong><span style="color: #03396c;">Beyond the Final Layer: Intermediate Representations for Better Multilingual Calibration in Large Language Models</span></strong>  
   [Preprint](https://www.arxiv.org/abs/2510.03136)    
-  Ej Zhou, <u>Caiqi Zhang†</u>, Tiancheng Hu, Chengzu Li, Nigel Collier, Ivan Vulić, Anna Korhonen
+  Ej Zhou†, <u>Caiqi Zhang†</u>, Tiancheng Hu, Chengzu Li, Nigel Collier, Ivan Vulić, Anna Korhonen
 
+- <strong><span style="color: #03396c;">Demystifying Multi-Agent Debate: The Role of Confidence and Diversity</span></strong>  
+  [ACL 2026 Findings](https://arxiv.org/abs/2601.19921)    
+  Xiaochen Zhu†, <u>Caiqi Zhang†</u>, Yizhou Chi, Tom Stafford, Nigel Collier, Andreas Vlachos
+
+- <strong><span style="color: #03396c;">Confidence Estimation for LLMs in Multi-turn Interactions</span></strong>  
+  [ACL 2026 Findings](https://arxiv.org/abs/2601.02179)    
+  <u>Caiqi Zhang†</u>, Ruihan Yang†, Xiaochen Zhu, Chengzu Li, Tiancheng Hu, Yijiang River Dong, Deqing Yang, Nigel Collier
 
 - <strong><span style="color: #03396c;">Reinforcement Learning for Better Verbalized Confidence in Long-Form Generation</span></strong>  
-  [Preprint](https://arxiv.org/abs/2505.23912)    
+  [ACL 2026 Main](https://arxiv.org/abs/2505.23912)    
   <u>Caiqi Zhang†</u>, Xiaochen Zhu†, Chengzu Li, Nigel Collier, Andreas Vlachos
 
 - <strong><span style="color: #03396c;">UNCLE: Benchmarking Uncertainty Expressions in Long-Form Generation</span></strong>  
@@ -211,11 +220,6 @@ graph LR
 - <strong><span style="color: #03396c;">LUQ: Long-text Uncertainty Quantification for LLMs</span></strong>  
   [EMNLP 2024 Main](https://aclanthology.org/2024.emnlp-main.299/)  
   <u>Caiqi Zhang</u>, Fangyu Liu, Marco Basaldella, Nigel Collier.
-
-### Other First & Co-First Papers
-- <strong><span style="color: #03396c;">Budget-Aware Agentic Routing via Boundary-Guided Training</span></strong>  
-  [Preprint](https://arxiv.org/abs/2602.21227)    
-  <u>Caiqi Zhang</u>, Menglin Xia, Xuchao Zhang, Daniel Madrigal, Ankur Mallick, Samuel Kessler, Victor Ruehle, Saravan Rajmohan
 
 - <strong><span style="color: #03396c;">Do We Need Language-Specific Fact-Checking Models? The Case of Chinese</span></strong>   
   [EMNLP 2024 Main](https://aclanthology.org/2024.emnlp-main.113/)  
