@@ -26,7 +26,7 @@ mermaid.initialize({
 
 I am a third year Ph.D. student at the University of Cambridge, working under the supervision of [Prof. Nigel Collier](https://sites.google.com/site/nhcollier/home). Previously, I completed my MPhil degree at Cambridge, focusing on fact-checking under the guidance of [Prof. Andreas Vlachos](https://andreasvlachos.github.io/) and [Dr. Zhijiang Guo](https://cartus.github.io/). 
 
-During my PhD studies, I did research internships in [Google](https://research.google/teams/cloud-ai-research/), [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), [J.P. Morgan AI Research](https://www.jpmorganchase.com/about/technology/research/ai), and [Tencent AI Lab](https://ailab.tencent.com/ailab/en/index/).
+📢 I am now doing an internship in [Google](https://research.google/teams/cloud-ai-research/). During my PhD studies, I also did research internships in [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/), [J.P. Morgan AI Research](https://www.jpmorganchase.com/about/technology/research/ai), and [Tencent AI Lab](https://ailab.tencent.com/ailab/en/index/).
 
 During my undergraduate studies, I interned at [PlusLab](https://violetpeng.github.io/) (UCLA) working with [Dr. Nanyun Peng](https://vnpeng.net/) and [Dr. Te-Lin Wu](https://telin0411.github.io/), and completed my capstone project with [Prof. Wenjie Li](https://www4.comp.polyu.edu.hk/~cswjli/) and [Dr. Yongqi Li](https://liyongqi67.github.io/) at [PolyU NLP Group](https://polyunlp.github.io/home). 
 
@@ -71,28 +71,32 @@ During my undergraduate studies, I interned at [PlusLab](https://violetpeng.gith
 ## &#x1F468;&#x200D;&#x1F4BB; Internships
 
 <ul style="margin-top: 2px; margin-bottom: 2px; padding-left: 20px;">
-  <li><a href="https://research.google/teams/cloud-ai-research/">Google</a>; Research Intern (Full-time); 2026
+  <li><a href="https://research.google/teams/cloud-ai-research/">Google</a>; Student Researcher (Full-time); ongoing
     <!-- <ul style="margin-top: 2px; margin-bottom: 2px;">
       <li>Upcoming.</li>
     </ul> -->
   </li>
 
   <li><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a>; Research Intern (Full-time); 3 months, 2025
-    <!-- <ul style="margin-top: 2px; margin-bottom: 2px;">
-      <li>Work with Dr. Molly Xia.</li>
-    </ul> -->
+    <ul style="margin-top: 2px; margin-bottom: 2px;">
+      <!-- <li>Work with Dr. Molly Xia.</li> -->
+      <li>Focused on model routing in long-horizon agentic workflow for efficiency.</li>
+    </ul>
   </li>
 
   <li><a href="https://www.jpmorganchase.com/about/technology/research/ai">J.P. Morgan AI Research</a>; Research Intern (Full-time); 3 months, 2025
-    <!-- <ul style="margin-top: 2px; margin-bottom: 2px;">
-      <li>Work with Dr. Elizabeth Fons and Dr. Vamsi Potluru.</li>
-    </ul> -->
+    <ul style="margin-top: 2px; margin-bottom: 2px;">
+      <!-- <li>Work with Dr. Elizabeth Fons and Dr. Vamsi Potluru.</li> -->
+      <li>Automated factual evaluation via LLM agents for temporal analytics.</li>
+
+    </ul>
   </li>
 
   <li><a href="https://ailab.tencent.com/ailab/en/index/">Tencent AI Lab</a>; Research Intern (Full-time); 6 months, 2024
-    <!-- <ul style="margin-top: 2px; margin-bottom: 2px;">
-      <li>Work with Dr. Zhizong Zhang and Dr. Xinting Huang.</li>
-    </ul> -->
+    <ul style="margin-top: 2px; margin-bottom: 2px;">
+      <!-- <li>Work with Dr. Zhizong Zhang and Dr. Xinting Huang.</li> -->
+      <li>Advanced my PhD research on uncertainty estimation for long-form generation.</li>
+    </ul>
   </li>
 
 </ul>
@@ -102,9 +106,9 @@ During my undergraduate studies, I interned at [PlusLab](https://violetpeng.gith
 ## 🗺️ Research Roadmap
 
 
-<p style="margin: 0 0 4px 0;"><strong>💡My Research Vision:</strong> Our need for uncertainty in LLMs depends on <strong>how we position them</strong>.</p>
+<p style="margin: 0 0 4px 0;"><strong>💡My Research Vision:</strong> I believe that our need for uncertainty in LLMs depends on <strong>how we position them</strong>.</p>
 <ul style="margin: 0; padding-left: 40px;">
-  <li>As <strong style="color: #5b9bd5;">tools</strong>, LLMs need uncertainty that can be <strong>📐measured</strong> for evaluation and risk control.</li>
+  <li>As <strong style="color: #5b9bd5;">tools</strong>, LLMs need uncertainty that can be <strong>📐measured</strong> externally for evaluation and risk control.</li>
   <li>As <strong style="color: #5b9bd5;">collaborators</strong>, they must be able to <strong>💬express</strong> uncertainty in ways humans can understand and act on. And in human-AI or multi-agent settings, uncertainty fundamentally shapes <strong>🤝interaction</strong>.</li>
 </ul>
 <p style="margin: 4px 0 0 0;">My research studies these three connected dimensions of uncertainty in LLMs: <strong>measurement, expression, and interaction</strong>.</p>
@@ -184,26 +188,29 @@ graph LR
   [Preprint](https://www.arxiv.org/abs/2510.03136)    
   Ej Zhou†, <u>Caiqi Zhang†</u>, Tiancheng Hu, Chengzu Li, Nigel Collier, Ivan Vulić, Anna Korhonen
 
-- <strong><span style="color: #03396c;">Demystifying Multi-Agent Debate: The Role of Confidence and Diversity</span></strong>  
-  [ACL 2026 Findings](https://arxiv.org/abs/2601.19921)    
-  Xiaochen Zhu†, <u>Caiqi Zhang†</u>, Yizhou Chi, Tom Stafford, Nigel Collier, Andreas Vlachos
+- <strong><span style="color: #03396c;">Reinforcement Learning for Better Verbalized Confidence in Long-Form Generation</span></strong>  
+  [ACL 2026 Main](https://arxiv.org/abs/2505.23912)    
+  <u>Caiqi Zhang†</u>, Xiaochen Zhu†, Chengzu Li, Nigel Collier, Andreas Vlachos
 
 - <strong><span style="color: #03396c;">Confidence Estimation for LLMs in Multi-turn Interactions</span></strong>  
   [ACL 2026 Findings](https://arxiv.org/abs/2601.02179)    
   <u>Caiqi Zhang†</u>, Ruihan Yang†, Xiaochen Zhu, Chengzu Li, Tiancheng Hu, Yijiang River Dong, Deqing Yang, Nigel Collier
 
-- <strong><span style="color: #03396c;">Reinforcement Learning for Better Verbalized Confidence in Long-Form Generation</span></strong>  
-  [ACL 2026 Main](https://arxiv.org/abs/2505.23912)    
-  <u>Caiqi Zhang†</u>, Xiaochen Zhu†, Chengzu Li, Nigel Collier, Andreas Vlachos
 
-- <strong><span style="color: #03396c;">UNCLE: Benchmarking Uncertainty Expressions in Long-Form Generation</span></strong>  
-  [EMNLP 2025 Main](https://arxiv.org/abs/2505.16922)  
-  Ruihan Yang†, <u>Caiqi Zhang†</u>, Zhisong Zhang, Xinting Huang, Dong Yu, Nigel Collier, Deqing Yang
+- <strong><span style="color: #03396c;">Demystifying Multi-Agent Debate: The Role of Confidence and Diversity</span></strong>  
+  [ACL 2026 Findings](https://arxiv.org/abs/2601.19921)    
+  Xiaochen Zhu†, <u>Caiqi Zhang†</u>, Yizhou Chi, Tom Stafford, Nigel Collier, Andreas Vlachos
 
 - <strong><span style="color: #03396c;">All Roads Lead to Rome: Graph-Based Confidence Estimation for LLM Reasoning
 </span></strong>  
   [EMNLP 2025 Main](https://arxiv.org/abs/2509.12908)  
   <u>Caiqi Zhang</u>, Chang Shu, Ehsan Shareghi, Nigel Collier
+
+
+- <strong><span style="color: #03396c;">UNCLE: Benchmarking Uncertainty Expressions in Long-Form Generation</span></strong>  
+  [EMNLP 2025 Main](https://arxiv.org/abs/2505.16922)  
+  Ruihan Yang†, <u>Caiqi Zhang†</u>, Zhisong Zhang, Xinting Huang, Dong Yu, Nigel Collier, Deqing Yang
+
 
 - <strong><span style="color: #03396c;">Conformity in Large Language Models</span></strong>  
   [ACL 2025 Main](https://arxiv.org/abs/2410.12428)    
