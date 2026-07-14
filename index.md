@@ -184,6 +184,14 @@ graph LR
   [Preprint](https://arxiv.org/abs/2602.21227)    
   <u>Caiqi Zhang</u>, Menglin Xia, Xuchao Zhang, Daniel Madrigal, Ankur Mallick, Samuel Kessler, Victor Ruehle, Saravan Rajmohan
 
+- <strong><span style="color: #03396c;">When Calibration Rankings Reverse: Accuracy-Controlled Evaluation for Fair Comparison of LLMs</span></strong>  
+  [Preprint](https://arxiv.org/abs/2606.30814)    
+  Zhichao Yang†, <u>Caiqi Zhang†</u>, Ruihan Yang†, Chengzu Li, Nigel Collier, Deqing Yang
+
+- <strong><span style="color: #03396c;">Code Is More Than Text: Uncertainty Estimation for Code Generation</span></strong>  
+  [Preprint](https://arxiv.org/abs/2606.09577)    
+  Yuling Shi†, <u>Caiqi Zhang†</u>, Yuexian Li†, Haopeng Wang, Yeheng Chen, Nigel Collier, Xiaodong Gu
+
 - <strong><span style="color: #03396c;">Beyond the Final Layer: Intermediate Representations for Better Multilingual Calibration in Large Language Models</span></strong>  
   [Preprint](https://www.arxiv.org/abs/2510.03136)    
   Ej Zhou†, <u>Caiqi Zhang†</u>, Tiancheng Hu, Chengzu Li, Nigel Collier, Ivan Vulić, Anna Korhonen
